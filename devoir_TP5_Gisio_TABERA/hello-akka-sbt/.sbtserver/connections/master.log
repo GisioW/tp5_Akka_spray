@@ -1,0 +1,7 @@
+New log file opened at Mon Feb 01 17:13:06 CET 2016 by 33851@Buttle.local
+Taking next connection to: 49929
+New client attempting to connect on port: 49930-49929
+  Address = /192.168.56.1:49929
+This client on port 49930 has uuid c057e476-e342-44a9-bea0-b758cbde44da configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-c057e476-e342-44a9-bea0-b758cbde44da
+Taking next connection to: 49929

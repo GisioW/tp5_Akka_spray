@@ -1,0 +1,308 @@
+New log file opened at Mon Feb 01 17:13:06 CET 2016 by 33851@Buttle.local
+jvm 33851@Buttle.local
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.71-b15
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/project
+[Loading] Found non-root projects 
+[Loading] Done in /Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/project, returning: (hello-akka-build)
+Loading project definition from /Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@40fd6c41, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka
+[Loading] Found non-root projects 
+[Loading] Done in /Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka, returning: (hello-akka)
+Set current project to hello-akka (in build file:/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/)
+Reapplying settings...
+Set current project to hello-akka (in build file:/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/}hello-akka/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@6e485a4f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Total time: 1 s, completed 1 févr. 2016 17:13:10
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/}hello-akka/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@52d454a8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 1 févr. 2016 17:13:10
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/}hello-akka/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@3edc8a66, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Total time: 0 s, completed 1 févr. 2016 17:13:10
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/}hello-akka/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@3fefd622, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 1 févr. 2016 17:13:10
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HelloAkkaScala
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@1448871b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 1 févr. 2016 17:13:33
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e65212f, check cycles: false
+Total time: 0 s, completed 1 févr. 2016 17:13:35
+> server-post-command-cleanup
+Exception in thread "sbt-bg-threads-1" java.lang.IllegalThreadStateException: process hasn't exited
+	at java.lang.UNIXProcess.exitValue(UNIXProcess.java:424)
+	at sbt.SimpleProcess.exitValue(ProcessImpl.scala:382)
+	at sbt.ForkRun.run(Run.scala:32)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+> server-handle-next-server-request
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@7960b869, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/src/test/scala/HelloAkkaSpec.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/src/test/scala/HelloAkkaSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/src/test/scala/HelloAkkaSpec.scala)
+
+Read from stdout: Compiling 1 Scala source to /Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/target/scala-2.11/test-classes...
+Compiling 1 Scala source to /Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/target/scala-2.11/test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 3b5e4dec, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes:/Users/boudes/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/target/scala-2.11/test-classes:/Users/boudes/Documents/STARTED/cours_StreamProg/Scala_activator/hello-akka/target/scala-2.11/classes:/Users/boudes/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar:/Users/boudes/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/boudes/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.4.0.jar:/Applications/activator-1.3.2/repository/org.scalatest/scalatest_2.11/2.2.4/bundles/scalatest_2.11.jar:/Applications/activator-1.3.2/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar:/Users/boudes/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/Applications/activator-1.3.2/repository/junit/junit/4.12/jars/junit.jar:/Users/boudes/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar:/Applications/activator-1.3.2/repository/com.novocode/junit-interface/0.11/jars/junit-interface.jar:/Users/boudes/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar
+Read from stdout: there were two deprecation warnings; re-run with -deprecation for details
+there were two deprecation warnings; re-run with -deprecation for details
+Read from stdout: one warning found
+one warning found
+Scala compilation took 4.268991253 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@2dfba470), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@4f6d5f5d))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@49ac7e0e), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@6c9e57d1), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@362e87fa))
+Running TaskDef(HelloAkkaTest, com.novocode.junit.JUnitFingerprint@362e87fa, false, [SuiteSelector])
+Running TaskDef(HelloAkkaSpec, org.scalatest.tools.Framework$$anon$1@2dfba470, false, [SuiteSelector])
+Read from stdout: Test run started
+Read from stdout: Test HelloAkkaTest.testSetGreeter started
+Read from stdout: Test HelloAkkaTest.testGetGreeter started
+Read from stdout: Test run finished: 0 failed, 0 ignored, 2 total, 0.372s
+[34mTest run started[0m
+Test [33mHelloAkkaTest[0m.[36mtestSetGreeter[0m started
+Test [33mHelloAkkaTest[0m.[36mtestGetGreeter[0m started
+[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 2 total, 0.372s[0m
+Read from stdout: HelloAkkaSpec:
+Read from stdout: An HelloAkkaActor
+Read from stdout: - should be able to set a new astonishing greeting
+Read from stdout: - should be able to get a wonderful new greeting
+[32mHelloAkkaSpec:[0m
+[32mAn HelloAkkaActor[0m
+[32m- should be able to set a new astonishing greeting[0m
+[32m- should be able to get a wonderful new greeting[0m
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 760 milliseconds.
+Read from stdout: Total number of tests run: 2
+Read from stdout: Suites: completed 1, aborted 0
+Read from stdout: Tests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 760 milliseconds.
+Total number of tests run: 2
+Suites: completed 1, aborted 0
+Tests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	HelloAkkaSpec
+	HelloAkkaTest
+Total time: 6 s, completed 1 févr. 2016 17:13:44
+> server-post-command-cleanup
+> server-handle-next-server-request
